@@ -1,0 +1,76 @@
+#classification div#tables{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+#classification button{
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    padding: 5px;
+    font-size: 12pt;
+    text-decoration: underline;
+}
+
+
+#classification table#elim{
+    display: none;
+}
+
+
+#classification table{
+    width: 100%;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 30px;
+    padding: 20px;
+}
+#classification th{
+    font-size: 15pt;
+    border-bottom: 1px solid whitesmoke;
+}
+#classification th.infos{
+    width: 35px;
+}
+#classification td{
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+#classification td.players{
+    width: 200px;
+    cursor: pointer;
+    text-align: left;
+}
+td#pos1, td#pos2{
+    color: lawngreen;
+}
+td#pos3, td#pos4, td#pos5, td#pos6{
+    color: royalblue;
+}
+td#pos7, td#pos8, td#pos9, td#pos10{
+    color: tomato;
+}
+
+
+#classification div.etapas{
+    margin-bottom: 10px;
+    text-align: center;
+}
+#classification div.etapas h3{
+    margin-bottom: 3px;
+}
+#classification div.bord{
+    display: grid;
+    grid-template-columns: 10fr 1fr 10fr;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 30px;
+}
+#classification div.col{
+    display: flex;
+    flex-direction: column;
+}
+#classification div.res{
+    display: flex;
+}
+#classification div.res span{
+    margin: 0 3px;
+}

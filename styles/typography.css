@@ -1,0 +1,9 @@
+@font-face{
+	font-family: "lol";
+	src: url('../fonts/FrizQuadrataBoldBT.ttf');
+}
+*{
+	font-family: 'lol';
+	color: whitesmoke;
+	text-shadow: 1px 1px 1px black;
+}

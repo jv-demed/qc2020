@@ -1,0 +1,74 @@
+#infoPlayers{
+    height: 203px;
+}
+#infoPlayers div#info{
+    display: flex;
+    align-items: flex-start;
+}
+#infoPlayers div#mainInfo{
+    display: flex;
+    align-items: center;
+    width: 65%;
+}
+#infoPlayers div#mainInfo img#icon{
+    width: 60px;
+    height: 70px;
+    margin: 5px;
+}
+#infoPlayers div#mainInfo #main{
+    display: flex;
+    flex-direction: column;
+}
+#infoPlayers div#mainInfo span#nick{
+    font-size: 16pt;
+}
+#infoPlayers div#mainInfo div#forms{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#infoPlayers div#mainInfo div#forms div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 7px;
+}
+#infoPlayers div#historic{
+    width: 35%;
+    height: 196px;
+    overflow: auto;
+    text-align: center;
+    padding-top: 7px;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    background: rgb(111, 139, 221);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(65,105,225);
+}
+#infoPlayers div.confronts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+}
+#infoPlayers div.confronts img{
+    border-radius: 100%;
+    margin: 0 5px;
+}
+#infoPlayers img.winner{
+    border: 2px solid greenyellow;
+}
+#infoPlayers img.loser{
+    border: 2px solid tomato;
+}
+#infoPlayers img.imgChamp{
+    width: 30px;
+}
+#infoPlayers img.imgAdv{
+    width: 20px;
+    height: 20px;
+}
+#infoPlayers #statistics{
+}
